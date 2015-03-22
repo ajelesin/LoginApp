@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Desktop.master.cs" Inherits="LoginApp.Desktop" %>
+<%@ Register tagPrefix="uc" tagName="MenuList" src="~/Menu.ascx" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Main Page</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table>
+            <tr>
+                <td></td>
+                <td><asp:LinkButton runat="server" ID="btnLogout" Text="Logout" OnClick="btnLogout_OnClick"/></td>
+            </tr>
+            <tr>
+                <td><uc:MenuList runat="server" ID="menuList"/></td>
+                <td><asp:ContentPlaceHolder runat="server" ID="placeContent"/></td>
+            </tr>
+        </table>    
+    </div>
+    </form>
+</body>
+</html>

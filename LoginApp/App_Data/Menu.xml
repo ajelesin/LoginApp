@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<items>
+  <item>
+    <title>Item 1</title>
+    <access-rule>access-to-item-1</access-rule>
+    <url>Page1.aspx</url>
+  </item>
+  <item>
+    <title>Item 2</title>
+    <access-rule>access-to-item-2</access-rule>
+    <url>Page2.aspx</url>
+  </item>
+  <item>
+    <title>Item 3</title>
+    <access-rule>access-to-item-3</access-rule>
+    <url>Page3.aspx</url>
+  </item>
+</items>
